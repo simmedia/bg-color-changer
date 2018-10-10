@@ -1,0 +1,18 @@
+:root {
+  --bg: #9cafc4;
+  --font: sans-serif; }
+
+body {
+  background: var(--bg);
+  height: 100vh;
+  font-family: var(--font);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.container {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }

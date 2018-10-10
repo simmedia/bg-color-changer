@@ -1,0 +1,23 @@
+:root {
+    --bg: #9cafc4;
+    --font: sans-serif;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: var(--bg);
+    height: 100vh;
+    font-family: var(--font);
+    @include flex();
+}
+
+.container {
+    width: 300px;
+    height: 100px;
+    @include flex();
+}
