@@ -1,5 +1,5 @@
 # bg-color-changer
 
-# Start Project
+Start Project
 
 npm run sass
